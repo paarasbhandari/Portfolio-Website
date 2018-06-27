@@ -19,8 +19,13 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
+  <link href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+
 <link rel="shortcut icon" href="https://image.ibb.co/f58D45/favicon_16x16.png" type="image/x-icon">
-  
+  <link href='https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css' rel='stylesheet' type='text/css'>
+
 
 
   <style>
@@ -33,6 +38,7 @@
       font: 2em Montserrat, sans-serif;
       line-height: 1.8;
       color: #f5f6f7;
+      background-color: black;
   }
   p {font-size: 16px;}
   .margin {margin-bottom: 45px;}
@@ -72,7 +78,8 @@
       margin-left:0px;
       font-size: 0.8em;
       letter-spacing: 5px;
-      background-color: #ffffff
+      background-color: #f6f6f6
+      opacity:0.7;
       
 
   }
@@ -155,7 +162,6 @@
 
   .whatdoido{
     font-size:3.2vh;
-    margin-top:-6vh;
     
 
   }
@@ -318,12 +324,6 @@ section#contact .text-danger {
 
 
 
- 
-
-
-
-
-
   
 @media screen and (min-width: 480px) {
 
@@ -337,6 +337,14 @@ section#contact .text-danger {
     
   }
 
+  .brand:hover{
+    color:#1abc9c;
+    margin-left:0em;
+    letter-spacing: 2px;
+    opacity:1;
+  }
+
+
   
     .dot{
       margin-bottom:-10%;
@@ -349,8 +357,9 @@ section#contact .text-danger {
 
       padding-right: 30%;
       padding-left:30%;
-      padding-top:1.3%;
+      padding-top:2.5%;
       font-size: 2.5vh;
+      line-height: 30px;
     }
 
     .dp{
@@ -402,20 +411,21 @@ section#contact .text-danger {
 
 
    .bg-2 { 
-      background-color: #474e5d; /* Dark Blue */
+      background-color: black; /* Dark Blue */
       color: #ffffff;
-      height:100vh;
+      height:103vh;
   }
 
   .bg-1 { 
-      background-color: #1abc9c; /* Green */
-      color: #ffffff;
-      height:53vh;
+      background-color: #1e1e1e; /* Green 1abc9c*/
+      color: #cdcdcd;
+      height:55vh;
     
   }
 
   .whoami{
     margin-top:1vh;
+    padding-bottom: 0vh;
   }
 
   .musictag{
@@ -480,9 +490,7 @@ section#contact .text-danger {
   margin-top:0vh;
 }
 
-#whatdoido{
-  padding-top:-27%;
-}
+
 
 
 /* social media contact css */
@@ -678,10 +686,179 @@ section#contact .text-danger {
 }
 
 
+.carousel-inner{
+  margin-top:-5vh;
+  align-content: center;
+  margin-left: 6%;
+}
+
+.carousel {
+    position: relative;
+    background-color: black;
+    margin-top: 0vh;
+}
+
+
+/* The indicators */
+.carousel-indicators {
+  align-content: center;
+  position: relative;
+  margin-top: 20px;
+  padding-bottom: 20px;
+}
+/* The colour of the indicators */
+.carousel-indicators li {
+  background: #cecece;
+}
+
+.carousel-indicators .active {
+background: #1abc9c;
+}
+
+.container1{
+  height: 300px;
+}
+
+.row{
+  background-color: black;
+  align-content: center;
+  position: relative;
+  height:150px;
+  align-content: center;
+  margin-top: 20px;
+
+}
+
+.col-md-3{
+
+  height:335px;
+  width:325px;
+  padding-bottom: 10vh;
+
+}
+
+.control{
+
+margin-top: -275px;
+position: relative;
+
+}
+
+.left-carousel-control{
+  border: 3px solid grey;
+  border-radius: 20px;
+  position:relative;
+  float:left;
+  padding-left: 4px;
+  padding-right: 4px;
+  margin-left: 3vh;
+}
 
 
 
-  
+.right-carousel-control{
+  border: 3px solid grey;
+  border-radius: 20px;
+  position: relative;
+  padding-left: 4px;
+  padding-right: 4px;
+  float:right;
+  margin-right: 3vh;
+}
+
+
+
+.slide{
+  height:350px;
+  width: 100%;
+  padding-top: 0px;
+  padding-right: 0px;
+
+}
+
+
+#Carousel{
+  height:300px;
+  position: static;
+  padding-bottom: 400px;
+}
+
+/* Styling for footer*/
+
+.foot{
+  height:100px;
+  background-color: #1a1a1a;
+}
+
+.footer{
+  position: relative;
+  margin-top: -100px;
+}
+
+
+
+.fa-twitter {
+    color: #4099FF;
+}
+
+.fa-facebook {
+    color: #3B5998;
+}
+
+.fa-youtube-play {
+    color: #e52d27;
+}
+
+.fa-rss {
+    color: #FF6600;
+}
+
+.fa-vine {
+    color: #00a478;
+}
+
+.fa-flickr {
+    color: #ff0084;
+}
+
+.fa-twitch {
+    color: #6441A5;
+}
+
+.fa-linkedin {
+    color: #007bb6;
+}
+
+.fa-instagram {
+  /*  color: #007bb6; */
+    color: #e52d27;
+}
+
+.fa-wordpress {
+    color: #007bb6;
+}
+
+.fa-github {
+    color: #e52d27;
+   /* color: #007bb6; */
+}
+
+.fa {
+    opacity: 0.7;
+    transition: 1s;
+    -webkit-transition: 1s;
+}
+
+.fa:hover{
+    opacity: 1;
+    transition: 1s;
+    -webkit-transition: 1s;
+}
+
+
+/* Styling for footer   */
+
+
 
   </style>
 </head>
@@ -697,20 +874,21 @@ section#contact .text-danger {
                                
       </button>
       <span class="brand">
+      <a href="homepage.html">
       <img src="https://image.ibb.co/jsCgrk/pic2.jpg" id="dpp" style="display:inline" alt="Bird" width="40em" height="40em"/>
       <div alink="#808080" vlink="#808080" class="navbar-brand" href="#"><span class="brand">PAARAS <strong> BHANDARI </strong> </span>
       </div>
+      </a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
 
         
       
-        <li><a  href="#whatdoido">ABOUT</a></li>
-        <li><a  href="#music">MUSIC</a></li>
-        <li><a  href="#BLOGS">BLOGS</a></li>
-        
-        <li><a  href="#PHOTOGRAPHY">PHOTOGRAPHY</a></li>
+        <li><a  href="about.html">ABOUT</a></li>
+        <li><a  href="#music">PROJECTS</a></li>
+        <li><a  href="#BLOGS">EXPERIENCE</a></li>
+        <li><a  href="#PHOTOGRAPHY">HOBBIES</a></li>
         <li><a href="contact.html">CONTACT</a></li>
       
       </ul>
@@ -726,117 +904,81 @@ section#contact .text-danger {
   <img src="https://image.ibb.co/jsCgrk/pic2.jpg" class="dp" style="display:inline" alt="Bird" >
   <br> <br>
   
-  <div><h3  class="tagline">I'm <span id="whatdoido"></span>a programming enthusiast who enjoys converting imaginations into reality  </h3></div>
+  <div><h3  class="tagline">I'm a programming enthusiast who enjoys converting imaginations into reality  </h3></div>
 
 </div>
 
-<!-- Second Container -->
-<div class="container-fluid bg-2 text-center">
-  
-  
-  <h3   class="whatdoido"> What do I do?</h3>
-  
-  
-  <p class="intro1">I'm pursuing a major in Computer Science and Engineering at University Of California Davis. I enjoy developing web applications and small programs. </p> 
-  
-  <p  class="intro2"> I'm proficient at programming in C, C++, Java, and Python and familiar with Intel x86 Assembly Instructions. I also have experience with web web designing using HTML, CSS, Jquery, and Bootstrap. In addition, I have a keen interest in Mathematics and Physics.
-  <br> <br> <br>
-  My hobbies include singing, writing adventure blogs, traveling, climbing, playing table tennis, and practicing martial arts.  <span  class="musictag"></span></p>
-  <div id="list">
-  
 
-  <br> <p class="dot" id="music" style="color:#66000000"> ... </p><br> <br> <br> <br> 
-  
-  <span  class="music"> </span>
-  <br>
-  
-  <img src="https://image.ibb.co/imUfHQ/pic1.jpg" class="imusic" style="display:inline" alt="Bird" >
-  <img src="https://image.ibb.co/bR9EcQ/pic4.jpg" class="imusic" style="display:inline" alt="Bird" >
-  <img src="https://image.ibb.co/b1XNWk/pic6.jpg" class="imusic" style="display:inline" alt="Bird" >
-
-
-  
-
-  <p class="tmusic"> I've been learning Indian Classical Music since the age of 9. I've participated in various competitions and performed with renowned artists. </p> 
-  
-  <p class="tmusic"> To watch my music videos and stay updated on my new releases, subscribe to my YouTube Channel <a target="_blank" href="https://www.youtube.com/paarasbhandari"> here </a> or follow me on instagram <a target="_blank" href="http://www.instagram.com/paaras_bhandari"> @paaras_bhandari </a>
-  <br> <br> <br>
-  <span id="BLOGS"></span>
-  
-  
-
-  
+<div class="container1">
+    <div class="row">
+    <div class="col-md-12">
+                <div id="Carousel" class="carousel slide">
+                 
+                <ol class="carousel-indicators">
+                    <li data-target="#Carousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#Carousel" data-slide-to="1"></li>
+                    <li data-target="#Carousel" data-slide-to="2"></li>
+                </ol>
+                 
+                <!-- Carousel items -->
+                <div class="carousel-inner">
+                    
+                <div class="item active">
+                  <div class="row">
+                    <div class="col-md-3" ><a href="#" class="thumbnail"><img class = "slide" src="pic11.jpg" alt="Image" style="max-width:100%; height:175px "></a></div>
+                    <div class="col-md-3"><a href="#" class="thumbnail"><img class = "slide" src="pic3.png" alt="Image" style="max-width:100%; height:175px"></a></div>
+                    <div class="col-md-3"><a href="#" class="thumbnail"><img  class = "slide" src="pic15.jpg" alt="Image" style="max-width:100%; height:175px"></a></div>
+                    <div class="col-md-3"><a href="#" class="thumbnail"><img  class = "slide" src="pic12.jpg" alt="Image" style="max-width:100%; height:175px"></a></div>
+                  </div><!--.row-->
+                </div><!--.item-->
+                 
+                <div class="item">
+                  <div class="row">
+                    <div class="col-md-3" ><a href="#" class="thumbnail"><img class = "slide" src="pic9.jpg" alt="Image" style="max-width:100%; height:175px "></a></div>
+                    <div class="col-md-3"><a href="#" class="thumbnail"><img class = "slide" src="pic4.png" alt="Image" style="max-width:100%; height:175px"></a></div>
+                    <div class="col-md-3"><a href="#" class="thumbnail"><img  class = "slide" src="pic14.jpg" alt="Image" style="max-width:100%; height:175px"></a></div>
+                    <div class="col-md-3"><a href="#" class="thumbnail"><img  class = "slide" src="pic16.jpg" alt="Image" style="max-width:100%; height:175px"></a></div>
+                  </div><!--.row-->
+                </div><!--.item-->
+                 
+                <div class="item">
+                  <div class="row">
+                    <div class="col-md-3" ><a href="#" class="thumbnail"><img class = "slide" src="pic8.jpg" alt="Image" style="max-width:100%; height:175px "></a></div>
+                    <div class="col-md-3"><a href="#" class="thumbnail"><img class = "slide" src="pic5.png" alt="Image" style="max-width:100%; height:175px"></a></div>
+                    <div class="col-md-3"><a href="#" class="thumbnail"><img  class = "slide" src="pic7.jpg" alt="Image" style="max-width:100%; height:175px"></a></div>
+                    <div class="col-md-3"><a href="#" class="thumbnail"><img  class = "slide" src="pic1.jpg" alt="Image" style="max-width:100%; height:175px"></a></div>
+                  </div><!--.row-->
+                </div><!--.item-->
+                 
+                </div>
+                <div class="control">
+                <a data-slide="prev" href="#Carousel" class="left-carousel-control">‹</a>
+                <a data-slide="next" href="#Carousel" class="right-carousel-control">›</a>  
+                </div>
+                </div>
+                 
+    </div>
+  </div>
 </div>
 
 
+<footer class="footer">
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 
-
-<!-- Third Container (Grid) -->
-<div class="container-fluid bg-3 text-center">
-  
-  
-  
-  <br> <br>
-  
-  <img id="BLOGS" src="https://image.ibb.co/iTQLHQ/pic7.jpg" class="iblog" style="display:inline" alt="Bird" >
-  <span ></span>
-  <img src="https://image.ibb.co/bCLWP5/pic8.jpg" class="iblog" style="display:inline" alt="Bird" >
-  <img src="https://image.ibb.co/f1prP5/pic9.jpg" class="iblog" style="display:inline" alt="Bird" >
-
-<br> <br> 
-
-  <p class="tblogs">Having been born in the Himalayas, I have always been fascinated by mountains and mountaineers. Over the years, I have been a part of various groups and expeditions and climbed extensively in the Himlayas. I have written several blogs accounting my exepriences in the mountains. To read my blogs, click <a href="http://www.paarasbhandari.wordpress.com" target="_blank"> here <span id="PHOTOGRAPHY"></span></a> </p> 
-
-  
-  
-  
-  <br><br><br> <br>
-  <img src="https://image.ibb.co/dMay45/pic14.jpg" class="iphoto" style="display:inline" alt="Bird" >
-  <img src="https://image.ibb.co/i1NBP5/pic11.jpg" class="iphoto" style="display:inline" alt="Bird" >
-  <img src="https://image.ibb.co/kUW5j5/pic12.jpg" class="iphoto" style="display:inline" alt="Bird" >
-
-
-  <br> <br> 
-
-  <p class="tphoto"> I love to photograph wildlife and landscape. Have a look at my photographs and stay updated by following me on instagram at <a href="http://www.instagram.com_paarasbhandari" target="_blank">@_paarasbhandari</a>. </p> 
-
-
-</div>
-<br> <br>
-
-
-<br>
-<br>
-
-<br>
-<br>
-
-
-<br>
-<br>
-
-
-<br>
-<br>
-
-
-
-
-
-<!-- contact -->
-
-
-
-
-
- 
-
-
-<!-- Footer -->
-<footer class="container-fluid bg-4 text-center">
-  <p id="footnote">  Copyrights © Paaras Bhandari </p> 
+    <div style="position: relative;align-self: center;">
+      <div class="container2" style="padding-left: 30%;padding-bottom: 3vh">
+              <a href="https://www.facebook.com/PaarasBhandari99"><i class="fa fa-facebook fa-3x fa-fw"></i></a>
+              <a href="http://www.instagram.com/paaras_bhandari"><i class="fa fa-instagram fa-3x fa-fw"></i></a>
+              <a href="https://twitter.com/PaarasBhandari"><i class="fa fa-twitter fa-3x fa-fw"></i></a>
+              <a href="https://www.youtube.com/channel/UC3eojYfj300IE2XRQNZ9SwQ"><i class="fa fa-youtube-play fa-3x fa-fw"></i></a>
+              <a href="https://paarasbhandari.wordpress.com"><i class="fa fa-wordpress fa-3x fa-fw"></i></a>
+              <a href="https://github.com/paarasbhandari"><i class="fa fa-github fa-3x fa-fw"></i></a>
+              <a href="https://www.linkedin.com/in/paaras-bhandari/"><i class="fa fa-linkedin fa-3x fa-fw"></i></a>
+            </span>
+      </div>
+    </div>
+  <p class="footnote" style="padding-left: 42%">  Copyrights © Paaras Bhandari </p> 
 </footer>
-
 
 
 </body>
