@@ -326,13 +326,18 @@ section#contact .text-danger {
 }
 
 
-@media screen and (max-width: 430px){        /* for mobiles */
+@media only screen and (max-device-width: 812px) and (max-device-height:750px) {        /* for mobiles */
 
    
+  .thumbnail{
+    height:128px;
+  }
+
+
   .bg-1 { 
       background-color: #1e1e1e; /* Green 1abc9c*/
       color: #cdcdcd;
-      height:56vh;
+      height:58vh;
     
   }
 
@@ -347,34 +352,43 @@ section#contact .text-danger {
 
   .whoami{
     position: relative;
-    margin-top: -1vh;
+    margin-top: -2.5vh;
   }
 
-  
+  .tagline{
+    position: relative;
+    margin-top: -6vh;
+  }
 
   .container2{
     margin-top: 20vh;
   }
 
   .slide{
+
     margin-top: -3px;
     position: relative;
+    padding-bottom: 50px;
+    border:black 3px solid;
   }
-
-
-
 
   .col-md-3{
     position: relative;
     align-self: center;
     height:175px;
     width: 250px;
-    margin-left: 15%;
+    margin-left: 10%;
     border:3px solid black;
+
   }
 
 #Carousel{
-  margin-top: -3.5vh;
+  margin-top: -6.5vh;
+}
+
+.carousel-indicators{
+  position: relative;
+  margin-bottom: -50px;
 }
 
 .container2{
@@ -392,10 +406,9 @@ section#contact .text-danger {
     opacity: 0.6;
     transition: 1s;
     -webkit-transition: 1s;
-    font-size: 5vh;
+    font-size: 30px;
     display: inline;
     position: relative;
-    
     margin-left: 2vh;
 
 }
@@ -408,12 +421,12 @@ section#contact .text-danger {
 
 .footnote{
   position: relative;
-  padding-left: 20%;
+  padding-left: 10%;
 }
 
 .footer{
   position: relative;
-  margin-top:7vh;
+  margin-top:-5vh;
 }
 
 
@@ -423,7 +436,7 @@ section#contact .text-danger {
 
 
   
-@media screen and (min-width: 480px) {
+@media screen and (min-device-width: 480px) {
 
 
 
@@ -921,12 +934,12 @@ background: #1abc9c;
                     
                 <div class="item active">
                   <div class="row">
-                    <div class="col-md-3" ><a href="#" class="thumbnail" style="background-color: black;"><img class = "slide" src="https://image.ibb.co/i1NBP5/pic11.jpg" alt="Image" style=" height:175px; "></a></div>
+                    <div class="col-md-3" ><a href="#" class="thumbnail" style="background-color: black" > <img class = "slide" src="https://image.ibb.co/i1NBP5/pic11.jpg" alt="Image" style=" height:175px; "></a></div>
                     <div class="col-md-3"><a href="#" class="thumbnail" style="background-color: black;"><img class = "slide" src="https://image.ibb.co/dJxZcQ/pic3.jpg" alt="Image" style="  height:175px; "></a></div>
                     <div class="col-md-3"><a href="#" class="thumbnail" style="background-color: black;"><img  class = "slide" src="https://image.ibb.co/kUW5j5/pic12.jpg" alt="Image" style="  height:175px; "></a></div>
                     <div class="col-md-3"><a href="#" class="thumbnail" style="background-color: black;"><img  class = "slide" src="https://image.ibb.co/kcF3QT/13703010_260810827630931_383707488_n.jpg" alt="Image" style=" height:175px; "></a></div>
-                  </div><!--.row-->
-                </div><!--.item-->
+                  </div>
+                </div>
                  
                 <div class="item">
                   <div class="row">
@@ -957,9 +970,6 @@ background: #1abc9c;
     </div>
   </div>
 </div>
-
-
-<br>
 
 
 
