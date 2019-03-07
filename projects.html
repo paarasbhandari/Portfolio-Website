@@ -17,12 +17,7 @@
          
          
 
-         .logo{
-         	position: relative;
-         	margin-top: 5px;
-         	color:#dfdfe5
-         }
-
+    
          .span{
          	font-weight: bold;
          }
@@ -32,10 +27,20 @@
          	height: 100%;
          }
 
+         @media only screen and (max-width: 600px) {
 
+         		.git-button{
+         	margin-left: 33%;
+
+         }
+         }
 
 
          @media only screen and (min-width: 600px) {
+
+         	.git-button{
+         	margin-left: 45%;
+         }
        
        	#nav{
          	margin-right: 30px;
@@ -44,16 +49,15 @@
          .barPic{
          	height: 40px;
          	border-radius: 50%;
-         	margin-top: 15px;
+         	margin-top: 10px;
          	margin-left: 30px;
          	opacity: 1;
          }
 
-         .logo{
-         	position: relative;
-         	margin-left: 65px;
-         	margin-top: 5px;
-         	color:#dfdfe5
+         #logo{
+         	display: inline-block;
+         	padding-left: 70px;
+         	padding-top: 0px;
          }
 
 
@@ -71,23 +75,15 @@
 
 			<!-- Header -->
 				<header id="header">
+					<h1 id="logo"><a href="index.html"> PAARAS BHANDARI </a></h1>
 				<img class="barPic" src="https://image.ibb.co/nK8JLU/Profile_Pic.jpg"/>  
-					<h1  id="logo"> <p class="logo" ><a href="index.html"> PAARAS <span class="last"> BHANDARI </span> </a> </p></h1>
 					<nav id="nav">
 						<ul>
 						    <li><a href="index.html">HOME</a></li>
 							<li><a href="about.html">ABOUT</a></li>
 							<li><a href="experience.html">EXPERIENCE</a></li>
 							<li><a href="projects.html">PROJECTS</a></li>
-							<!-- <li>
-								<a href="#">HOBBIES</a>
-								<ul>
-									<li><a href="left-sidebar.html">MUSIC</a></li>
-									<li><a href="right-sidebar.html">PHOTOGRAPHY</a></li>
-									<li><a href="no-sidebar.html">BLOGS</a></li>
-									
-								</ul>
-							</li> -->
+							
 							<li><a href="contact.html">CONTACT</a></li>
 						</ul>
 					</nav>
@@ -105,7 +101,7 @@
 
 
 												
-													<a style="margin-left: 42%" href="https://github.com/paarasbhandari" target="_blank" class="button"> <i style="padding-right: 3px" class="fa fa-github"></i> My Github</a>
+												<span class = "git-button">	<a style=" padding-right: 10px; padding-left: 10px;" href="https://github.com/paarasbhandari" target="_blank" class="button"> <i style="" class="fa fa-github"></i> My Github  </a> </span>
 												
 
 								
