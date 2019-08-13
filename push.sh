@@ -1,3 +1,3 @@
 git add .
 git commit -m "auto"
-git push origin gh-pages
+git push -f origin gh-pages
